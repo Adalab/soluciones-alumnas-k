@@ -53,13 +53,13 @@ function theYoungest(arr) {
 }
 
 function countDesigners(arr) {
-  let designer = "";
+  let designers = 0;
   for (let i = 0; i < arr.length; i++) {
     if (arr[i].job === "diseñadora") {
-      designer += arr[i].name + ", ";
+      designers += 1;
     }
   }
-  return designer
+  return designers;
 }
 
 console.log(countAdalabers(adalabers));
