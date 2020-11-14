@@ -1,0 +1,15 @@
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.card {
+  border: solid 2px;
+  width: 200px;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+  &__poster {
+    width: 150px;
+  }
+}
